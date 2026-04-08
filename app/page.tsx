@@ -29,9 +29,9 @@ export default function Home() {
           <span className="text-blue-600 text-opacity-80">S.Kom.</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 max-w-3xl leading-relaxed mb-10">
-          Result-oriented Informatics Engineering graduate with a **3.84/4.00
-          GPA**. Specialized in building secure enterprise-scale systems using
-          **Java Spring Boot** and **Next.js**.
+          Result-oriented Informatics Engineering graduate with a 3.84/4.00
+          GPA. Specialized in building secure enterprise-scale systems using
+          Java Spring Boot and Next.js.
         </p>
         <div className="flex flex-wrap gap-4 font-bold">
           <a
