@@ -32,6 +32,13 @@ export const projects = [
     tech: "Next.js",
     description:
       "An interactive quiz-based game designed as a modern pedagogical tool to improve Civics Education engagement for elementary school students.",
-    link: "https://github.com/milhamafif027", // Sesuaikan link jika ada
+    link: "https://pancasila-adventure.vercel.app/",
+  },
+  {
+    title: "Yulizar ATK Website",
+    tech: "Next.js, Tailwind CSS, Vercel",
+    description:
+      "A sleek and responsive Landing page website showcasing my projects, skills, and professional experience, built with Next.js and Tailwind CSS.",
+    link: "https://yulizar-atk.vercel.app/",
   },
 ];
