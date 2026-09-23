@@ -1,44 +1,65 @@
-export const projects = [
+export interface Project {
+  title: string;
+  shortTitle?: string;
+  tech: string;
+  description: string;
+  link: string;
+  image?: string;
+}
+
+export const projects: Project[] = [
   {
     title: "Computerized Maintenance Management System (CMMS)",
-    tech: "Java Spring Boot, Next.js, SQL",
+    shortTitle: "CMMS.TEL",
+    tech: "Java Spring, Next.js, PostgreSQL",
     description:
-      "An enterprise-grade system designed to automate and monitor preventive maintenance schedules, developed during a professional internship at PT Tanjung Enim Lestari.",
+      "Enterprise industrial platform automating preventive maintenance cycles, equipment inspection schedules, and operational audit workflows at scale.",
     link: "https://github.com/milhamafif027/CMMS_PM",
+    image: "/gambarProject/cmms.png",
   },
   {
-    title: "Batik Motif Classification via Optimized EfficientNet-B3",
-    tech: "Python, Streamlit, Deep Learning",
+    title: "Batik Motif Classification via EfficientNet-B3",
+    shortTitle: "BATIK.AI",
+    tech: "PyTorch, Streamlit, Computer Vision",
     description:
-      "A high-performance recognition system utilizing Selective Fine-Tuning and modern regularization to identify Indonesian batik patterns with high accuracy.",
+      "High-accuracy deep learning recognition engine leveraging selective fine-tuning and regularization to classify intricate traditional Indonesian batik motifs.",
     link: "https://klasifikasi-motif-batik.streamlit.app/",
+    image: "/gambarProject/klasifikasiBatik.png",
   },
   {
-    title: "Integrated Web Portal for Local Enterprises (UMKM Patemon)",
+    title: "Integrated Enterprise Portal for UMKM Patemon",
+    shortTitle: "PATEMON.HUB",
     tech: "Next.js, Tailwind CSS, Vercel",
     description:
-      "A digital promotion platform built to digitalize small businesses in Patemon Village, enhancing their online visibility and market reach.",
+      "A modern local-business digital directory engineered to enhance regional economic visibility with performant responsive UI and static optimization.",
     link: "https://umkm-patemon.vercel.app/",
+    image: "/gambarProject/Screenshot 2025-12-28 171505.png",
   },
   {
-    title: "Asuh Bersama: Full-Stack Mobile Development",
-    tech: "Flutter/FlutterFlow, Supabase",
+    title: "Asuh Bersama: Collaborative Childcare Platform",
+    shortTitle: "ASUH.APP",
+    tech: "Flutter, Supabase, PostgreSQL",
     description:
-      "A cross-platform mobile application developed to facilitate social parenting and community-based childcare management.",
+      "A cross-platform mobile ecosystem built to streamline social parenting records, health monitoring, and distributed community care logistics.",
     link: "https://github.com/milhamafif027/Asuh-Bersama",
+    image: "/gambarProject/asuhBersama.png",
   },
   {
-    title: "Pancasila Adventure: Gamified Civics Education",
-    tech: "Next.js",
+    title: "Pancasila Adventure: Gamified Learning Engine",
+    shortTitle: "PANCASILA.EDU",
+    tech: "Next.js, React, Tailwind CSS",
     description:
-      "An interactive quiz-based game designed as a modern pedagogical tool to improve Civics Education engagement for elementary school students.",
+      "Interactive pedagogical quiz web application featuring real-time score state management to increase engagement in elementary civics education.",
     link: "https://pancasila-adventure.vercel.app/",
+    image: "/gambarProject/pancasila.png",
   },
   {
-    title: "Yulizar ATK Website",
+    title: "Yulizar ATK: Retail Commerce Platform",
+    shortTitle: "YULIZAR.STORE",
     tech: "Next.js, Tailwind CSS, Vercel",
     description:
-      "A sleek and responsive Landing page website showcasing my projects, skills, and professional experience, built with Next.js and Tailwind CSS.",
+      "A lightweight, responsive commercial landing site built for a retail office supplies distributor, focusing on seamless product discovery and fast conversion.",
     link: "https://yulizar-atk.vercel.app/",
+    image: "/gambarProject/yulizarAtk.png",
   },
 ];
