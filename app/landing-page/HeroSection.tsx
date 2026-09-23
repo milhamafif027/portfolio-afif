@@ -244,7 +244,7 @@ export default function HeroSection() {
               style={{ "--d": "0.38s" } as CSSProperties}
               className="appear appear--mask block"
             >
-              Muhammad Ilham Afif{" "}
+              Muhammad Ilham Afif
               <em className="font-serif italic font-normal tracking-[-0.02em] text-[#f2dfbe] not-italic text-[1.08em] px-1.5 drop-shadow-[0_0_18px_rgba(255,215,160,0.5)]">
                 S.Kom
               </em>
