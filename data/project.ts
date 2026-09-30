@@ -18,8 +18,8 @@ export const projects: Project[] = [
     image: "/gambarProject/cmms.png",
   },
   {
-    title: "Batik Motif Classification via EfficientNet-B3",
-    shortTitle: "BATIK.AI",
+    title: " Integrated Enterprise Portal for UMKM Patemon",
+    shortTitle: "PATEMON.HUB",
     tech: "PyTorch, Streamlit, Computer Vision",
     description:
       "High-accuracy deep learning recognition engine leveraging selective fine-tuning and regularization to classify intricate traditional Indonesian batik motifs.",
@@ -27,8 +27,8 @@ export const projects: Project[] = [
     image: "/gambarProject/klasifikasiBatik.png",
   },
   {
-    title: "Integrated Enterprise Portal for UMKM Patemon",
-    shortTitle: "PATEMON.HUB",
+    title: "Batik Motif Classification via EfficientNet-B3",
+    shortTitle: "BATIK.AI ",
     tech: "Next.js, Tailwind CSS, Vercel",
     description:
       "A modern local-business digital directory engineered to enhance regional economic visibility with performant responsive UI and static optimization.",
